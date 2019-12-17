@@ -145,11 +145,13 @@ function checkAnswer(answer){
 
 // answer is correct
 function answerIsCorrect(){
+    //turns progress bar circle green
     document.getElementById(runningQuestion).style.backgroundColor = "#0f0";
 }
 
 // answer is Wrong
 function answerIsWrong(){
+    //turns progress bar circle red
     document.getElementById(runningQuestion).style.backgroundColor = "#f00";
 }
 
